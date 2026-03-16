@@ -1,67 +1,160 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Aakash Marriage Profile</title>
 
-<style>
+<title>Aakash Vishwakarma | Profile</title>
 
-body{
-font-family: Arial;
-background:#f5f5f5;
-text-align:center;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-.container{
-background:white;
-width:500px;
-margin:auto;
-padding:20px;
-border-radius:10px;
-box-shadow:0 0 10px gray;
-}
-
-img{
-width:200px;
-border-radius:10px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="container">
+<div id="particles-js"></div>
+
+<header class="hero">
+
+<img src="images/profile.jpeg" class="profile">
 
 <h1>Aakash Vishwakarma</h1>
 
-<img src="photo.jpg">
+<p>Software Developer • Pune</p>
 
-<h3>Basic Details</h3>
+<a href="#about" class="btn">View Profile</a>
 
-<p>Age: 27</p>
-<p>Height: 5'8</p>
-<p>Location: Pune</p>
-<p>Profession: Software Developer</p>
+</header>
 
-<h3>About Me</h3>
 
-<p>
-Simple, ambitious and family oriented person working in the IT industry.
-Interested in technology, meditation and personal growth.
-</p>
+<!-- <section id="about" class="section">
 
-<h3>Family</h3>
+<h2>About Me</h2>
 
 <p>
-We are a small and respectable family based in Pune.
+<h5>DOB:</h5> 03/08/1999
 </p>
 
-<h3>Contact</h3>
+</section> -->
+<section id="about" class="section">
 
-<p>Email: example@gmail.com</p>
+<h2>About Me</h2>
+
+<p>
+I am a simple, family-oriented and ambitious person. I have completed my Mechanical
+Engineering and later moved into the IT field. I value honesty,
+family values and continuous personal growth.
+</p>
+
+<div class="details-grid">
+
+<div><b>Date of Birth:</b> 03 Aug 1999</div>
+<div><b>Birth Time:</b> 10:00 AM</div>
+<div><b>Birth Place:</b> Thane</div>
+<div><b>Height:</b> 5'6"</div>
+<div><b>Complexion:</b> Fair</div>
+<div><b>Manglik:</b> No</div>
+<div><b>Marital Status:</b> Unmarried</div>
+<div><b>Education:</b> Mechanical Engineering</div>
+<div><b>Profession:</b> Software Engineer </div>
+<div><b>Caste:</b> Lohar</div>
+<div><b>Gotra:</b> Shandilya</div>
 
 </div>
 
+</section>
+
+<section class="section">
+
+<h2>Family Details</h2>
+
+<div class="details-grid">
+
+<div><b>Father:</b> Rakesh Shiltaprasad Vishwakarma</div>
+<div><b>Father's Occupation:</b> Business</div>
+<div><b>Mother:</b> Sangita Vishwakarma</div>
+<div><b>Mother's Occupation:</b> Housewife</div>
+<div><b>Siblings:</b> 2</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Contact</h2>
+
+<div class="details-grid">
+
+<div><b>Address:</b> Katraj, Pune</div>
+<div><b>Phone:</b> 8793327439</div>
+
+</div>
+
+</section>
+
+
+<section class="timeline">
+
+<h2>Education & Career</h2>
+
+<div class="timeline-item">
+
+<h3>B.Tech in Mechanical Engineering</h3>
+<p>Graduation</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Software Career</h3>
+<p>Working as a developer in the IT industry</p>
+
+</div>
+
+</section>
+
+
+<section class="gallery">
+
+<h2>Photo Gallery</h2>
+
+<div class="grid">
+
+<img src="images/photo1.jpeg" onclick="openImage(this)">
+<img src="images/photo2.jpeg" onclick="openImage(this)">
+
+</div>
+
+</section>
+
+
+<div id="viewer">
+
+<span onclick="closeImage()">✕</span>
+
+<img id="fullImage">
+
+</div>
+
+
+<section class="contact">
+
+<h2>Contact</h2>
+
+<a href="https://wa.me/91XXXXXXXXXX" class="whatsapp">
+
+Chat on WhatsApp
+
+</a>
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
